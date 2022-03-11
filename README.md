@@ -47,7 +47,7 @@ ssh-keygen
 ssh-copy-id ubuntu@ip
 ```   
 
-### 8. 
+### 8. Running cluster
 ```bash
 rke up
 ```
