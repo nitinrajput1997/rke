@@ -57,5 +57,7 @@ rke up
 mv kubeconfig.yml file to .kube with rename as config
 ```
 
-10. set the kubeconfig environment variable
-    export KUBECONFIG=$HOME/.kube/config
+### 10. Set the kubeconfig environment variable
+```bash    
+export KUBECONFIG=$HOME/.kube/config
+```
