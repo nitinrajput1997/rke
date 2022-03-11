@@ -61,3 +61,9 @@ mv kubeconfig.yml file to .kube with rename as config
 ```bash    
 export KUBECONFIG=$HOME/.kube/config
 ```
+
+### 11. Check nodes and pods to verify
+```bash
+kubectl get no
+kubectl get po -A
+```
