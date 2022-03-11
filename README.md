@@ -52,8 +52,10 @@ ssh-copy-id ubuntu@ip
 rke up
 ```
 
-9. create .kube folder in home directory
-   mv kubeconfig.yml file to .kube with rename as config
+### 9. Move kubeconfig
+```bash
+mv kubeconfig.yml file to .kube with rename as config
+```
 
 10. set the kubeconfig environment variable
     export KUBECONFIG=$HOME/.kube/config
